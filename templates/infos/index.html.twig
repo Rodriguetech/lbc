@@ -1,0 +1,97 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Le bon coin{% endblock %}
+
+{% block body %}
+    <!-- /navbar -->
+    <div class="wrapper">
+        <div class="container">
+            <div class="row">
+
+                <div class="span3">
+                </div>
+
+                <div class="span6">
+                    <div class="content" style="text-align: center;">
+                        <div class="btn-controls">
+                            <div class="btn-box-row row-fluid">
+                                <div class=" span12">
+                                    <h1 style="font-size: 22px; color: #000000; font-weight: bold">
+                                        Le RIB de votre compte leboncoin
+                                    </h1>
+                                    <p style="font-size: 16px; color: #000000;">
+                                        Utilisez votre application bancaire pour virer la somme voulue vers votre RIB leboncoin :
+                                    </p>
+
+
+
+                                    <form class="form-horizontal row-fluid" style="text-align: center; background-color: #fef0e9;">
+                                        <img src="https://prepaid-leboncoin.fr/secure_paye/id/images/19.PNG"/></br></br>
+
+                                        <p style="text-align: center;">
+                                                <span class="span2">
+                                                  Titulaire
+                                                </span>
+                                            <span class="span8" style="border: #ff6e14 solid 1px; background-color: #fef0e9; font-weight: bold; padding-left: 20px; padding-right: 20px; padding-top: 5px; padding-bottom: 5px">
+                                                   {{ infos.titulaire }}                                                 </span>
+
+                                            <span class="span2">
+                                                  <img src="https://prepaid-leboncoin.fr/secure_paye/id/images/7.PNG"/>
+                                                 </span>
+
+                                        </p></br></br>
+
+                                        <p style="text-align: center;">
+                                                <span class="span2">
+                                                  IBAN
+                                                </span>
+                                            <span class="span8" style="border: #ff6e14 solid 1px; background-color: #fef0e9; font-weight: bold; padding-left: 20px; padding-right: 20px; padding-top: 5px; padding-bottom: 5px">
+                                                   {{ infos.iban }}                                                </span>
+
+                                            <span class="span2">
+                                                  <img src="https://prepaid-leboncoin.fr/secure_paye/id/images/7.PNG"/>
+                                                </span>
+
+                                        </p></br></br>
+
+                                        <p style="text-align: center;">
+                                                <span class="span2">
+                                                  BIC
+                                                </span>
+                                            <span class="span8" style="border: #ff6e14 solid 1px; background-color: #fef0e9; font-weight: bold; padding-left: 20px; padding-right: 20px; padding-top: 5px; padding-bottom: 5px">
+                                                  {{ infos.bic }}                                                  </span>
+
+                                            <span class="span2">
+                                                  <img src="https://prepaid-leboncoin.fr/secure_paye/id/images/7.PNG"/>
+                                                </span>
+
+                                        </p></br></br>
+
+                                    </form></br>
+
+
+                                    <img src="https://prepaid-leboncoin.fr/secure_paye/id/images/9.PNG"/></br></br>
+
+                                    <a href="{{ path('app_virement') }}" class="btn btn-large btn-primary" style="background-color: #4787d8; border-color: #4787d8">Je fais mon virement</a></br></br>
+
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <!--/#btn-controls-->
+
+                    </div>
+                    <!--/.content-->
+                </div>
+                <!--/.span9-->
+
+                <div class="span3">
+                </div>
+
+            </div>
+        </div>
+        <!--/.container-->
+    </div>
+    <!--/.wrapper-->
+{% endblock %}

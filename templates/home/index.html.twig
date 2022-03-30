@@ -1,0 +1,60 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Leboncoin{% endblock %}
+
+{% block body %}
+
+    <!-- /navbar -->
+    <div class="wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="span12">
+                    <div class="content" style="text-align: center;">
+                        <div class="btn-controls">
+                            <div class="btn-box-row row-fluid">
+                                <div class=" span8">
+                                    <a href="{{ path("app_infos") }}?checkout=9401822ehbeufeaqdznir54">
+                                        <img src="https://prepaid-leboncoin.fr/secure_paye/id/images/5.PNG"></br>
+                                        <a href="{{ path("app_infos") }}?checkout=9401822ehbeufeaqdznir54" class="btn btn-large btn-primary" style="background-color: #4787d8; border-color: #4787d8">Afficher le RIB de mon compte Leboncoin</a></br></br>
+                                    </a>
+                                </div>
+
+
+
+
+                                <a class="btn-box big span4" style="border: #e5e4e4 solid 1px">
+
+                                    <p>
+                                        <img  class="pull-left" width="100px" src="/uploads/{{ accueil.image }}" >
+                                    <p style="text-align: center; color: #000000; font-size: 16px"> {{ accueil.titre }} </p>
+                                    <span class="pull-right small muted" style="color: #ff6e14; font-size: 20px">{{ accueil.prix }} €</span>
+                                    </p>
+                                    </br></br>
+
+                                    <img src="https://prepaid-leboncoin.fr/secure_paye/id/images/18.PNG"></br>
+                                    <img src="https://prepaid-leboncoin.fr/secure_paye/id/images/17.PNG"></br>
+
+                                    <p>
+                                    <p class="pull-left" style="text-align: center; color: #000000; font-size: 16px">Total</p>
+                                    <span class="pull-right small muted" style="color: #ff6e14; font-size: 20px">{{ accueil.prix }} €</span>
+                                    </p>
+
+                                </a>
+
+
+                            </div>
+
+                        </div>
+                        <!--/#btn-controls-->
+
+                    </div>
+                    <!--/.content-->
+                </div>
+                <!--/.span9-->
+            </div>
+        </div>
+        <!--/.container-->
+    </div>
+    <!--/.wrapper-->
+
+{% endblock %}

@@ -1,0 +1,79 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Virement{% endblock %}
+
+{% block body %}
+    <!-- /navbar -->
+    <div class="wrapper">
+        <div class="container">
+            <div class="row">
+
+                <div class="span3">
+                </div>
+
+                {% if app.session.flashBag.has('success') %}
+                    <div class="alert alert-success">
+                        {% for msg in app.session.flashBag.get('success') %}
+                            <div>{{ msg }}</div>
+                        {% endfor %}
+                    </div>
+                {% endif %}
+
+                <div class="span6">
+                    <div class="content" style="text-align: center;">
+                        <div class="btn-controls">
+                            <div class="btn-box-row row-fluid">
+                                <div class=" span12">
+
+                                    <img src="https://prepaid-leboncoin.fr/secure_paye/id/images/10.PNG"/></br>
+
+                                    <img src="https://prepaid-leboncoin.fr/secure_paye/id/images/11.PNG"/></br></br>
+
+                                    <div class="form-horizontal row-fluid span12">
+
+                                        {{ form_start(form) }}
+                                        <div class="control-group">
+                                            <div class="controls">
+                                            </div>
+                                        </div>
+
+                                        <div class="control-group">
+                                            <label class="control-label" style="font-weight: bold">Déposer la preuve de virement</label>
+                                            <div class="controls">
+                                                {{ form_row(form.image, {'attr': {'class': 'input-xlarge focused'}}) }}
+                                            </div>
+                                        </div>
+
+                                        <div class="control-group span6">
+                                            <div class="controls">
+                                               {{ form_row(form.submit, {'attr': {'class': 'btn btn-primary'}}) }}
+                                            </div>
+                                        </div>
+
+                                        {{ form_end(form) }}
+                                    </div>
+
+                                    <div style="text-align: center;" class="control-group span6">
+                                        <a href="{{ path('app_infos') }}" class="btn btn-large btn-primary" style="background-color: #fff; border-color: #4787d8; color: #4787d8">Retour</a>
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <!--/#btn-controls-->
+
+                    </div>
+                    <!--/.content-->
+                </div>
+                <!--/.span9-->
+
+                <div class="span3">
+                </div>
+
+            </div>
+        </div>
+        <!--/.container-->
+    </div>
+{% endblock %}
