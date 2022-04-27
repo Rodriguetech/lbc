@@ -3,6 +3,7 @@
 namespace App\Controller;
 
 use App\Entity\Infos;
+use App\Entity\RetourAds;
 use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
@@ -26,8 +27,16 @@ class InfosController extends AbstractController
         // premier element de la liste
         $first = $infos[0];
 
+        $retourSurAnnonce = $this->entityManager->getRepository(RetourAds::class)->findAll();
+
+        // recupere le premier element
+
+        $retourSurAnnonce = $retourSurAnnonce[0];
+
+
         return $this->render('infos/index.html.twig', [
             'infos' => $first,
+            'retourSurAnnonce' => $retourSurAnnonce,
         ]);
     }
 }

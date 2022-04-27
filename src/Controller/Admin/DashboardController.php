@@ -6,6 +6,7 @@ use App\Entity\Homing;
 use App\Entity\Images;
 use App\Entity\Infos;
 use App\Entity\Mail;
+use App\Entity\RetourAds;
 use EasyCorp\Bundle\EasyAdminBundle\Config\Dashboard;
 use EasyCorp\Bundle\EasyAdminBundle\Config\MenuItem;
 use EasyCorp\Bundle\EasyAdminBundle\Controller\AbstractDashboardController;
@@ -45,5 +46,6 @@ class DashboardController extends AbstractDashboardController
         yield MenuItem::linkToCrud('Informations', 'fas fa-info', Infos::class);
         yield MenuItem::linkToCrud('Ordre de virements', 'fas fa-user', Images::class);
         yield MenuItem::linkToCrud('Mon mail', 'fas fa-envelope', Mail::class);
+        yield MenuItem::linkToCrud('Retour sur annonce', 'fas fa-arrow-left', RetourAds::class);
     }
 }

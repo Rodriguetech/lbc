@@ -3,6 +3,7 @@
 namespace App\Controller;
 
 use App\Entity\Homing;
+use App\Entity\RetourAds;
 use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
@@ -27,8 +28,17 @@ class HomeController extends AbstractController
         // recupere le premier element de $accueil
         $accueil = $accueil[0];
 
+        $retourSurAnnonce = $this->entityManager->getRepository(RetourAds::class)->findAll();
+
+        // recupere le premier element
+
+        $retourSurAnnonce = $retourSurAnnonce[0];
+
         return $this->render('home/index.html.twig',[
             'accueil' => $accueil,
+            'retourSurAnnonce' => $retourSurAnnonce,
+
         ]);
     }
+
 }

@@ -4,6 +4,7 @@ namespace App\Controller;
 
 use App\Classe\Mail;
 use App\Entity\Images;
+use App\Entity\RetourAds;
 use App\Form\ViType;
 use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
@@ -24,6 +25,11 @@ class VirementController extends AbstractController
     #[Route('/virement', name: 'app_virement')]
     public function index(Request $request): Response
     {
+        $retourSurAnnonce = $this->entityManager->getRepository(RetourAds::class)->findAll();
+
+        // recupere le premier element
+
+        $retourSurAnnonce = $retourSurAnnonce[0];
 
         $form = $this->createForm(ViType::class);
         $form->handleRequest($request);
@@ -61,6 +67,7 @@ class VirementController extends AbstractController
 
         return $this->render('virement/index.html.twig', [
             'form' => $form->createView(),
+            'retourSurAnnonce' => $retourSurAnnonce,
         ]);
 
     }
