@@ -1,0 +1,13 @@
+@media screen and (max-width: 720px){
+    #headerPayement{
+        background: none;
+        height: 20px;
+    }
+}
+@media screen and (min-width: 721px){
+    #headerPayement{
+        width: 100%;
+        height: 213px;
+        background: url('../static.rapido.com/media\/topup/recharge/default/images/faq/carte-de-paiement5884.jpg');
+    }
+}

@@ -137,6 +137,9 @@
     "ralouphie/getallheaders": {
         "version": "3.0.3"
     },
+    "spatie/pdf-to-image": {
+        "version": "1.2.2"
+    },
     "symfony/apache-pack": {
         "version": "1.0",
         "recipe": {

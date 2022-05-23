@@ -1,0 +1,228 @@
+.quickbuy {
+    background: #0e76bc;
+    padding: 15px 0;
+    position: relative;
+    color: #fff;
+    margin: 10px 0;
+}
+
+.quickbuy .value-add {
+    background: #e2810e;
+    color: #fff;
+    padding: 3px;
+    margin-top: 4px;
+    display: inline-block;
+    font-size: 13px;
+}
+
+.quickbuy-ribbon {
+    position: absolute;
+    z-index: 2;
+    left: -10px;
+    top: -23px;
+}
+
+.quickbuy img {
+    cursor: pointer;
+    min-height: 0;
+}
+
+.quickbuy .provider {
+    margin: 0;
+}
+
+.quickbuy .provider img {
+    background: #fff;
+}
+
+.quickbuy.itunes .provider,
+.quickbuy.itunes .text {
+    margin-top: 25px;
+}
+
+.quickbuy .provider:hover .title {
+    background: #efefef;
+    color: #595959;
+}
+
+.quickbuy .text {
+    display: block;
+    padding-top: 5px;
+    font-size: 13px;
+}
+
+.quickbuy .price {
+    display: block;
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.quickbuy .price .original:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 50%;
+    right: 0;
+    border-top: 1px solid #fff;
+
+    -webkit-transform:rotate(-8deg);
+    -moz-transform:rotate(-8deg);
+    -ms-transform:rotate(-8deg);
+    -o-transform:rotate(-8deg);
+    transform:rotate(-8deg);
+}
+
+.quickbuy .price .original {
+    font-size: 12px;
+    font-weight: 400;
+    position: relative;
+    margin-right: 2px;
+}
+
+.quickbuy dl,
+.quickbuy dd {
+    margin: 0;
+}
+
+.quickbuy button {
+    display: block;
+    width: 100%;
+    border: 0;
+    background: #56b64a;
+    padding: 5px;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: background 0.3s ease;
+}
+
+.quickbuy button:hover {
+    background: #5bc14e;
+}
+
+.more-products {
+    display: block;
+    text-align: center;
+    border-bottom: 1px solid #e6e6e6;
+    line-height: 0.1em;
+    margin: 20px 0;
+    color: #595959;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.more-products:hover {
+    text-decoration: none;
+    color: #595959;
+}
+
+.more-products span {
+    cursor: pointer;
+    background: #fff;
+    padding: 5px 10px;
+    border: 1px solid #e6e6e6;
+    transition: background 0.3s ease;
+}
+
+.more-products:hover span {
+    background: #ededed;
+}
+
+.bx-controls {
+    display: none;
+}
+
+#popular-products {
+    background-color: #f1f1f1;
+    border:1px solid #e4e4e4;
+    padding: 7.5px;
+}
+
+#popular-products .popular-product {
+    padding: 0px;
+}
+
+#popular-products .popular-product > * {
+    display: block;
+    background-color: white;
+    margin: 7.5px;
+    border:1px solid #e4e4e4;
+}
+
+#popular-products .popular-product img {
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+
+    ul.bxslider,
+    .bxslider-mobile {
+        height: 230px;
+    }
+
+    .bx-controls {
+        display: block;
+    }
+
+    .bx-prev,
+    .bx-next {
+        background: url('../images/slider-arrows.png') no-repeat 0% 50%;
+        color: transparent;
+        display: block;
+        height: 52px;
+        font-size: 0;
+        margin-top: -26px;
+        position: absolute;
+        top: 50%;
+        width: 34px;
+    }
+
+    .bx-prev {
+        left: 20px;
+    }
+
+    .bx-next {
+        background-position: 100% 50%;
+        right: 20px;
+    }
+
+}
+
+
+@media (min-width:992px)  {
+
+    .quickbuy .text {
+        font-size: 12px;
+    }
+
+    .quickbuy button {
+        font-size: 12px;
+    }
+
+    ul.bxslider,
+    .bxslider-mobile {
+        height: 301px;
+    }
+
+}
+
+@media (min-width: 1260px) {
+
+    .quickbuy .text {
+        font-size: 13px;
+    }
+
+    .quickbuy button {
+        font-size: 18px;
+    }
+
+    #category-blocks-left .col-lg-15 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    ul.bxslider,
+    .bxslider-mobile {
+        height: 385px;
+    }
+}

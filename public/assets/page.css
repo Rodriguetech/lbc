@@ -1,0 +1,402 @@
+h1 {
+    margin: 20px 0;
+    font-size: 1.8em;
+    font-weight: 700;
+    color: #1b1b1b;
+}
+.order-step-title .step {
+    color: #fff;
+    background: #000033;
+    border-radius: 50%;
+    display: block;
+    float: left;
+    font-weight: 700;
+    line-height: 32px;
+    height: 32px;
+    margin-right: 10px;
+    text-align: center;
+    width: 32px;
+}
+h2 {
+    font-size: 1.4em;
+    margin: 0 0 20px;
+    color: #1b1b1b;
+}
+.verif-information {
+    border: 1px solid #e9e9e9;
+    border-radius: 5px;
+    box-shadow: 0 3px 6px -3px #aaa;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+.order-step-title {
+    line-height: 32px;
+}
+.order-information {
+    color: #595959;
+    font-size: 1.1em;
+}
+.order-information input[type="checkbox"] + label span {
+    border: 2px solid #a4a4a4;
+    border-radius: 3px;
+    height: 19px;
+    width: 20x;
+}
+.order-information-options label {
+    display: block;
+    line-height: 1.5;
+}
+input[type="text"], input[type="tel"], input[type="email"], input[type="password"], textarea {
+    border: 1px solid #e9e9e9;
+    border-radius: 5px;
+    box-shadow: 0 3px 6px -5px #444 inset;
+    color: #8e8e8e;
+    display: block;
+    margin: 5px 0 0;
+    padding: 8px 10px;
+}
+input[type="text"], input[type="tel"], input[type="email"], input[type="password"], textarea, select {
+    font-size: inherit;
+}
+input[type="text"], input[type="tel"], input[type="email"], input[type="password"], textarea {
+
+    border: 1px solid #ccc9c9;
+    border-radius: 5px;
+    box-shadow: 0 3px 6px -5px #444 inset;
+    color: #818181;
+    display: block;
+    margin: 5px 0 0;
+    padding: 8px 10px;
+
+}
+input[type="text"], input[type="tel"], input[type="email"], input[type="password"], textarea, select {
+
+    font-size: inherit;
+
+}
+input[type="text"], input[type="tel"], input[type="email"], input[type="password"], textarea {
+    width: 100%;
+    transition: border 0.5s ease;
+    -webkit-appearance: none;
+    outline: none;
+}
+.order-information {
+    background: #fff;
+    border: 1px solid #e9e9e9;
+    border-radius: 5px;
+    box-shadow: 0 3px 6px -3px #aaa;
+    color: #595959;
+    font-size: 1.1em;
+    padding: 12px;
+    position: relative;
+}
+.voucher-field {
+    background: #f0f0f0;;
+    font-size: 1.2em;
+    padding: 15px;
+}
+.voucher-subtitle {
+    font-size: .8em;
+}
+.voucher-form {
+    display: flex;
+    margin: 5px 0;
+}
+#voucher-submit {
+    background-color: #0083d2;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0 3px 0 -1px #00578c;
+    display: block;
+    height: 36px;
+    margin-left: 20px;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    width: 40px;
+}
+[type=submit]{
+    background-color: #0083d2;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0 3px 0 -1px #00578c;
+    margin-left: 20px;
+    text-align: center;
+    color: white;
+}
+fieldset, dt, dd {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.voucher-toggle {
+    background: url("media/shop/images/voucher-code-arrow.png") no-repeat 0 50%;
+    color: #0083d2;
+    cursor: pointer;
+    display: inline-block;
+    margin: 5px 0;
+    padding-left: 15px;
+    font-size: .9em;
+}
+#enter-information, .voucher-field{
+    position: relative;
+}
+#paymethods {
+    margin: 0 -15px;
+}
+#paymethods {
+    padding: 20px;
+}
+#paymethods {
+    background: #fff;
+    border: 1px solid #e9e9e9;
+    border-radius: 5px;
+    box-shadow: 0 3px 6px -3px #aaa;
+    margin: 0 0 15px;
+    padding: 12px;
+    position: relative;
+}
+.cc{
+    cursor: pointer;
+}
+.paymethod {
+    padding: 10px;
+}
+.paymethod {
+    background: #fff;
+    border: 1px solid #e9e9e9;
+    border-radius: 5px;
+    margin: 3px 0;
+    padding: 7px 10px;
+}
+.order-paymethods {
+    font-size: 1.1em;
+}
+[type=radio]:checked{
+    border-color: #007bb8;
+}
+[type=radio]{
+    border: 2px solid #b6b6b6;
+    border-radius: 50%;
+    display: inline-block;
+    height: 20px;
+    position: relative;
+    vertical-align: text-bottom;
+    width: 20px;
+}
+input, button, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+.basket-content {
+    color: #8e8e8e;
+}
+.basket-content table {
+    width: 100%;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.basket-image-column {
+    width: 100px;
+}
+td, th {
+    padding: 0;
+}
+.basket-product-image {
+    background: #fff;
+    border: 1px solid #ababab;
+    margin: 0 5px 5px 0;
+    max-width: 88px;
+    padding: 5px 0;
+}
+.basket-product-name {
+    color: #595959;
+    font-size: 1.15em;
+    font-weight: 700;
+}
+.basket-product-delivery {
+    font-size: .85em;
+}
+.basket-content .right {
+    text-align: right;
+}
+.basket-quantity, .basket-transaction-cost, .basket-service-fee {
+    font-size: .85em;
+}
+.basket-line {
+    border-top: 1px solid #ababab;
+    color: transparent;
+    font-size: 0;
+    margin: 20px 0 5px;
+}
+hr {
+    border: 0;
+}
+.basket-change-link {
+    font-size: 1.05em;
+}
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+.basket-content .right {
+    text-align: right;
+}
+.basket-total-column {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.basket-info {
+    background: #bbe1fc;
+    font-size: .9em;
+    line-height: 1.4;
+    margin: 10px 0;
+    padding: 5px;
+    text-align: left;
+}
+.basket-info img {
+    float: left;
+    margin: 0 5px;
+}
+.basket-info span {
+    display: block;
+    padding-left: 40px;
+}
+.primary-button {
+    font-size: 1.15em;
+}
+.primary-button {
+    background-color: #44b64e;
+    border-radius: 5px;
+    box-shadow: 0 4px 0 -1px #3d9b40;
+    padding: 20px;
+    position: relative;
+    width: 100%;
+}
+.primary-button, .secondary-button, .info-button, .order-button {
+    display: block;
+    width: 100%;
+    border: 0;
+    background: #56b64a;
+    background-color: rgb(86, 182, 74);
+    color: #fff;
+    padding: 10px;
+    transition: background 0.3s ease;
+    text-align: center;
+    outline: none;
+}
+input, button, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+button, select {
+    text-transform: none;
+}
+button {
+    overflow: visible;
+}
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+.order-details {
+    background: rgb(247, 246, 246);
+    border: 1px solid #e9e9e9;
+    border-radius: 5px;
+    box-shadow: 0 3px 6px -3px #aaa;
+    color: #595959;
+    font-size: 1.1em;
+    padding: 12px;
+    position: relative;
+}
+.basket-content .basket-information {
+    color: #303030;
+}
+.basket-content .order-email > td {
+    padding: 10px 0 3px;
+    word-break: break-all;
+}
+.basket-content .basket-information .label {
+    color: #8e8e8e;
+    padding-right: 5px;
+}
+.basket-content .basket-information a {
+    font-size: .9em;
+    margin-left: 5px;
+}
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+a {
+    background-color: transparent;
+}
+.payment-information {
+    border: 1px solid #e9e9e9;
+    border-radius: 5px;
+    box-shadow: 0 3px 6px -3px #aaa;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+#paymentdata-submit a {
+    font-size: 1.2em;
+}
+.primary-button.inline, .secondary-button.inline, .info-button, .order-button.inline {
+    width: auto;
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+a.primary-button, a.secondary-button, a.info-button, a.order-button {
+    color: #fff;
+    text-decoration: none;
+}
+.secondary-button {
+    background: #d4d4d4;
+    margin-left: 20px;
+}
+.payment-information .safety-guarantee li {
+    list-style-type: none;
+    font-size: 0.9em;
+}
+#adyen-form {
+    padding: 10px;
+    border: solid 3px #ddd;
+    border-radius: .4em;
+    max-width: 350px;
+    margin: auto;
+}
+.usp {
+    display: inline-block;
+    font-size: 13px;
+    margin-top: 20px;
+}
+#usp{
+    margin-left: 10px;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+

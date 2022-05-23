@@ -1,0 +1,90 @@
+/*
+    Document   : bbcode
+    Created on : 4-nov-2010, 11:57:34
+    Author     : Arno
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/*
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+span.bb-bold {
+    font-weight: bold;
+}
+
+span.bb-italic {
+    font-style: italic;
+}
+
+span.bb-underline {
+    text-decoration: underline;
+}
+
+span.bb-linethrough {
+    text-decoration: line-through;
+}
+
+div.bb-justify {
+    text-align: justify;
+}
+
+div.bb-center {
+    text-align: center;
+}
+
+div.bb-left {
+    text-align: left;
+}
+
+div.bb-right {
+    text-align: right;
+}
+
+ul.bb-list {
+    padding-left: 15px;
+    margin: 5px 0px;
+}
+
+ul.bb-list li {
+
+}
+
+td.bb-bold {
+    font-weight: bold;
+}
+
+span.bb-themecolor-theme {
+    color: #666666;
+}
+span.bb-themecolor-accent {
+    color: #333333;
+}
+span.bb-themecolor-striking {
+    color: #000000;
+}
+span.bb-themecolor-highlight {
+    color: #f00000;
+}
+
+span.bb-themecolor-success {
+    color: #77bb41;
+}
+
+div.bb-collapse {
+
+}
+a.bb-collapse-button {
+    font-weight:    bold;
+    cursor:         pointer;
+    text-decoration: underline;
+}
+a.bb-collapse-button:hover {
+    text-decoration: none;
+}
+
+em {
+    font-style: italic;
+}

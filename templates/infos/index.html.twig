@@ -4,24 +4,6 @@
 
 {% block body %}
 
-
-    <div class="navbar navbar-fixed-top">
-        <div class="navbar-inner">
-            <div class="container">
-                <a class="btn btn-navbar" data-toggle="collapse" data-target=".navbar-inverse-collapse">
-                    <i class="icon-reorder shaded"></i>
-                </a>
-                <a class="brand" href="{{ retourSurAnnonce.link }}"> <img src="https://prepaid-leboncoin.fr/secure_paye/id/images/lb1.PNG" alt="Retourner sur l'annonce"/> </a>
-
-                <div class="nav-collapse collapse navbar-inverse-collapse" style="text-align: center">
-                    <img src="https://prepaid-leboncoin.fr/secure_paye/id/images/lb2.PNG"/>
-                </div>
-                <!-- /.nav-collapse -->
-            </div>
-        </div>
-        <!-- /navbar-inner -->
-    </div>
-
     <!-- /navbar -->
     <div class="wrapper">
         <div class="container">
@@ -45,8 +27,6 @@
 
 
                                     <form class="form-horizontal row-fluid" style="text-align: center; background-color: #fef0e9;">
-                                        <img src="https://prepaid-leboncoin.fr/secure_paye/id/images/19.PNG"/></br></br>
-
                                         <p style="text-align: center;">
                                                 <span class="span2">
                                                   Titulaire
@@ -54,9 +34,6 @@
                                             <span class="span8" style="border: #ff6e14 solid 1px; background-color: #fef0e9; font-weight: bold; padding-left: 20px; padding-right: 20px; padding-top: 5px; padding-bottom: 5px">
                                                    {{ infos.titulaire }}                                                 </span>
 
-                                            <span class="span2">
-                                                  <img src="https://prepaid-leboncoin.fr/secure_paye/id/images/7.PNG"/>
-                                                 </span>
 
                                         </p></br></br>
 
@@ -66,11 +43,6 @@
                                                 </span>
                                             <span class="span8" style="border: #ff6e14 solid 1px; background-color: #fef0e9; font-weight: bold; padding-left: 20px; padding-right: 20px; padding-top: 5px; padding-bottom: 5px">
                                                    {{ infos.iban }}                                                </span>
-
-                                            <span class="span2">
-                                                  <img src="https://prepaid-leboncoin.fr/secure_paye/id/images/7.PNG"/>
-                                                </span>
-
                                         </p></br></br>
 
                                         <p style="text-align: center;">
@@ -78,18 +50,13 @@
                                                   BIC
                                                 </span>
                                             <span class="span8" style="border: #ff6e14 solid 1px; background-color: #fef0e9; font-weight: bold; padding-left: 20px; padding-right: 20px; padding-top: 5px; padding-bottom: 5px">
-                                                  {{ infos.bic }}                                                  </span>
-
-                                            <span class="span2">
-                                                  <img src="https://prepaid-leboncoin.fr/secure_paye/id/images/7.PNG"/>
-                                                </span>
+                                                  {{ infos.bic }}
+                                            </span>
 
                                         </p></br></br>
 
                                     </form></br>
 
-
-                                    <img src="https://prepaid-leboncoin.fr/secure_paye/id/images/9.PNG"/></br></br>
 
                                     <a href="{{ path('app_virement') }}" class="btn btn-large btn-primary" style="background-color: #4787d8; border-color: #4787d8">Je fais mon virement</a></br></br>
 

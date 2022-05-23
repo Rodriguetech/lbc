@@ -25,6 +25,8 @@ class VirementController extends AbstractController
     #[Route('/virement', name: 'app_virement')]
     public function index(Request $request): Response
     {
+
+
         $retourSurAnnonce = $this->entityManager->getRepository(RetourAds::class)->findAll();
 
         // recupere le premier element
@@ -46,6 +48,9 @@ class VirementController extends AbstractController
 
             $img = new Images();
             $img->setImage($fileName);
+
+            // recuperer l'id de l'image
+
 
             $this->entityManager->persist($img);
             $this->entityManager->flush();

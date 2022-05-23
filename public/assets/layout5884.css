@@ -1,0 +1,1598 @@
+html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background-color:transparent}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                  font-weight: 500
+                                                                                                                                                                                                                                                                                                                                                                                                                                                              }dfn{font-style:italic}h1{font-size:2em;margin:0.67em 0}mark{background:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box;height:0}pre{overflow:auto}code,kbd,pre,samp{font-family:monospace, monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type="checkbox"],input[type="radio"]{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;padding:0}input[type="number"]::-webkit-inner-spin-button,input[type="number"]::-webkit-outer-spin-button{height:auto}input[type="search"]{-webkit-appearance:textfield;-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box}input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:0.35em 0.625em 0.75em}legend{border:0;padding:0}textarea{overflow:auto}optgroup{font-weight:bold}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*:before,*:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}html{font-size:10px;-webkit-tap-highlight-color:rgba(0,0,0,0)}body{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:14px;line-height:1.42857143;color:#333;background-color:#fff}input,button,select,textarea{font-family:inherit;font-size:inherit;line-height:inherit}a{color:#337ab7;text-decoration:none}a:hover,a:focus{color:#23527c;text-decoration:underline}a:focus{outline:thin dotted;outline:5px auto -webkit-focus-ring-color;outline-offset:-2px}figure{margin:0}img{vertical-align:middle}.img-responsive{display:block;max-width:100%;height:auto}.img-rounded{border-radius:6px}.img-thumbnail{padding:4px;line-height:1.42857143;background-color:#fff;border:1px solid #ddd;border-radius:4px;-webkit-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;transition:all .2s ease-in-out;display:inline-block;max-width:100%;height:auto}.img-circle{border-radius:50%}hr{margin-top:20px;margin-bottom:20px;border:0;border-top:1px solid #eee}.sr-only{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);border:0}.sr-only-focusable:active,.sr-only-focusable:focus{position:static;width:auto;height:auto;margin:0;overflow:visible;clip:auto}[role="button"]{cursor:pointer}.container{margin-right:auto;margin-left:auto;padding-left:15px;padding-right:15px}@media (min-width:768px){.container{width:750px}}@media (min-width:992px){.container{width:970px}}@media (min-width:1260px){.container{width:1230px}}.container-fluid{margin-right:auto;margin-left:auto;padding-left:15px;padding-right:15px}.row{margin-left:-15px;margin-right:-15px}.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12{position:relative;min-height:1px;padding-left:15px;padding-right:15px}.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12{float:left}.col-xs-12{width:100%}.col-xs-11{width:91.66666667%}.col-xs-10{width:83.33333333%}.col-xs-9{width:75%}.col-xs-8{width:66.66666667%}.col-xs-7{width:58.33333333%}.col-xs-6{width:50%}.col-xs-5{width:41.66666667%}.col-xs-4{width:33.33333333%}.col-xs-3{width:25%}.col-xs-2{width:16.66666667%}.col-xs-1{width:8.33333333%}.col-xs-pull-12{right:100%}.col-xs-pull-11{right:91.66666667%}.col-xs-pull-10{right:83.33333333%}.col-xs-pull-9{right:75%}.col-xs-pull-8{right:66.66666667%}.col-xs-pull-7{right:58.33333333%}.col-xs-pull-6{right:50%}.col-xs-pull-5{right:41.66666667%}.col-xs-pull-4{right:33.33333333%}.col-xs-pull-3{right:25%}.col-xs-pull-2{right:16.66666667%}.col-xs-pull-1{right:8.33333333%}.col-xs-pull-0{right:auto}.col-xs-push-12{left:100%}.col-xs-push-11{left:91.66666667%}.col-xs-push-10{left:83.33333333%}.col-xs-push-9{left:75%}.col-xs-push-8{left:66.66666667%}.col-xs-push-7{left:58.33333333%}.col-xs-push-6{left:50%}.col-xs-push-5{left:41.66666667%}.col-xs-push-4{left:33.33333333%}.col-xs-push-3{left:25%}.col-xs-push-2{left:16.66666667%}.col-xs-push-1{left:8.33333333%}.col-xs-push-0{left:auto}.col-xs-offset-12{margin-left:100%}.col-xs-offset-11{margin-left:91.66666667%}.col-xs-offset-10{margin-left:83.33333333%}.col-xs-offset-9{margin-left:75%}.col-xs-offset-8{margin-left:66.66666667%}.col-xs-offset-7{margin-left:58.33333333%}.col-xs-offset-6{margin-left:50%}.col-xs-offset-5{margin-left:41.66666667%}.col-xs-offset-4{margin-left:33.33333333%}.col-xs-offset-3{margin-left:25%}.col-xs-offset-2{margin-left:16.66666667%}.col-xs-offset-1{margin-left:8.33333333%}.col-xs-offset-0{margin-left:0}@media (min-width:768px){.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12{float:left}.col-sm-12{width:100%}.col-sm-11{width:91.66666667%}.col-sm-10{width:83.33333333%}.col-sm-9{width:75%}.col-sm-8{width:66.66666667%}.col-sm-7{width:58.33333333%}.col-sm-6{width:50%}.col-sm-5{width:41.66666667%}.col-sm-4{width:33.33333333%}.col-sm-3{width:25%}.col-sm-2{width:16.66666667%}.col-sm-1{width:8.33333333%}.col-sm-pull-12{right:100%}.col-sm-pull-11{right:91.66666667%}.col-sm-pull-10{right:83.33333333%}.col-sm-pull-9{right:75%}.col-sm-pull-8{right:66.66666667%}.col-sm-pull-7{right:58.33333333%}.col-sm-pull-6{right:50%}.col-sm-pull-5{right:41.66666667%}.col-sm-pull-4{right:33.33333333%}.col-sm-pull-3{right:25%}.col-sm-pull-2{right:16.66666667%}.col-sm-pull-1{right:8.33333333%}.col-sm-pull-0{right:auto}.col-sm-push-12{left:100%}.col-sm-push-11{left:91.66666667%}.col-sm-push-10{left:83.33333333%}.col-sm-push-9{left:75%}.col-sm-push-8{left:66.66666667%}.col-sm-push-7{left:58.33333333%}.col-sm-push-6{left:50%}.col-sm-push-5{left:41.66666667%}.col-sm-push-4{left:33.33333333%}.col-sm-push-3{left:25%}.col-sm-push-2{left:16.66666667%}.col-sm-push-1{left:8.33333333%}.col-sm-push-0{left:auto}.col-sm-offset-12{margin-left:100%}.col-sm-offset-11{margin-left:91.66666667%}.col-sm-offset-10{margin-left:83.33333333%}.col-sm-offset-9{margin-left:75%}.col-sm-offset-8{margin-left:66.66666667%}.col-sm-offset-7{margin-left:58.33333333%}.col-sm-offset-6{margin-left:50%}.col-sm-offset-5{margin-left:41.66666667%}.col-sm-offset-4{margin-left:33.33333333%}.col-sm-offset-3{margin-left:25%}.col-sm-offset-2{margin-left:16.66666667%}.col-sm-offset-1{margin-left:8.33333333%}.col-sm-offset-0{margin-left:0}}@media (min-width:992px){.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12{float:left}.col-md-12{width:100%}.col-md-11{width:91.66666667%}.col-md-10{width:83.33333333%}.col-md-9{width:75%}.col-md-8{width:66.66666667%}.col-md-7{width:58.33333333%}.col-md-6{width:50%}.col-md-5{width:41.66666667%}.col-md-4{width:33.33333333%}.col-md-3{width:25%}.col-md-2{width:16.66666667%}.col-md-1{width:8.33333333%}.col-md-pull-12{right:100%}.col-md-pull-11{right:91.66666667%}.col-md-pull-10{right:83.33333333%}.col-md-pull-9{right:75%}.col-md-pull-8{right:66.66666667%}.col-md-pull-7{right:58.33333333%}.col-md-pull-6{right:50%}.col-md-pull-5{right:41.66666667%}.col-md-pull-4{right:33.33333333%}.col-md-pull-3{right:25%}.col-md-pull-2{right:16.66666667%}.col-md-pull-1{right:8.33333333%}.col-md-pull-0{right:auto}.col-md-push-12{left:100%}.col-md-push-11{left:91.66666667%}.col-md-push-10{left:83.33333333%}.col-md-push-9{left:75%}.col-md-push-8{left:66.66666667%}.col-md-push-7{left:58.33333333%}.col-md-push-6{left:50%}.col-md-push-5{left:41.66666667%}.col-md-push-4{left:33.33333333%}.col-md-push-3{left:25%}.col-md-push-2{left:16.66666667%}.col-md-push-1{left:8.33333333%}.col-md-push-0{left:auto}.col-md-offset-12{margin-left:100%}.col-md-offset-11{margin-left:91.66666667%}.col-md-offset-10{margin-left:83.33333333%}.col-md-offset-9{margin-left:75%}.col-md-offset-8{margin-left:66.66666667%}.col-md-offset-7{margin-left:58.33333333%}.col-md-offset-6{margin-left:50%}.col-md-offset-5{margin-left:41.66666667%}.col-md-offset-4{margin-left:33.33333333%}.col-md-offset-3{margin-left:25%}.col-md-offset-2{margin-left:16.66666667%}.col-md-offset-1{margin-left:8.33333333%}.col-md-offset-0{margin-left:0}}@media (min-width:1260px){.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12{float:left}.col-lg-12{width:100%}.col-lg-11{width:91.66666667%}.col-lg-10{width:83.33333333%}.col-lg-9{width:75%}.col-lg-8{width:66.66666667%}.col-lg-7{width:58.33333333%}.col-lg-6{width:50%}.col-lg-5{width:41.66666667%}.col-lg-4{width:33.33333333%}.col-lg-3{width:25%}.col-lg-2{width:16.66666667%}.col-lg-1{width:8.33333333%}.col-lg-pull-12{right:100%}.col-lg-pull-11{right:91.66666667%}.col-lg-pull-10{right:83.33333333%}.col-lg-pull-9{right:75%}.col-lg-pull-8{right:66.66666667%}.col-lg-pull-7{right:58.33333333%}.col-lg-pull-6{right:50%}.col-lg-pull-5{right:41.66666667%}.col-lg-pull-4{right:33.33333333%}.col-lg-pull-3{right:25%}.col-lg-pull-2{right:16.66666667%}.col-lg-pull-1{right:8.33333333%}.col-lg-pull-0{right:auto}.col-lg-push-12{left:100%}.col-lg-push-11{left:91.66666667%}.col-lg-push-10{left:83.33333333%}.col-lg-push-9{left:75%}.col-lg-push-8{left:66.66666667%}.col-lg-push-7{left:58.33333333%}.col-lg-push-6{left:50%}.col-lg-push-5{left:41.66666667%}.col-lg-push-4{left:33.33333333%}.col-lg-push-3{left:25%}.col-lg-push-2{left:16.66666667%}.col-lg-push-1{left:8.33333333%}.col-lg-push-0{left:auto}.col-lg-offset-12{margin-left:100%}.col-lg-offset-11{margin-left:91.66666667%}.col-lg-offset-10{margin-left:83.33333333%}.col-lg-offset-9{margin-left:75%}.col-lg-offset-8{margin-left:66.66666667%}.col-lg-offset-7{margin-left:58.33333333%}.col-lg-offset-6{margin-left:50%}.col-lg-offset-5{margin-left:41.66666667%}.col-lg-offset-4{margin-left:33.33333333%}.col-lg-offset-3{margin-left:25%}.col-lg-offset-2{margin-left:16.66666667%}.col-lg-offset-1{margin-left:8.33333333%}.col-lg-offset-0{margin-left:0}}.clearfix:before,.clearfix:after,.container:before,.container:after,.container-fluid:before,.container-fluid:after,.row:before,.row:after{content:" ";display:table}.clearfix:after,.container:after,.container-fluid:after,.row:after{clear:both}.center-block{display:block;margin-left:auto;margin-right:auto}.pull-right{float:right !important}.pull-left{float:left !important}.hide{display:none !important}.show{display:block !important}.invisible{visibility:hidden}.text-hide{font:0/0 a;color:transparent;text-shadow:none;background-color:transparent;border:0}.hidden{display:none !important}.affix{position:fixed}@-ms-viewport{width:device-width}.visible-xs,.visible-sm,.visible-md,.visible-lg{display:none !important}.visible-xs-block,.visible-xs-inline,.visible-xs-inline-block,.visible-sm-block,.visible-sm-inline,.visible-sm-inline-block,.visible-md-block,.visible-md-inline,.visible-md-inline-block,.visible-lg-block,.visible-lg-inline,.visible-lg-inline-block{display:none !important}@media (max-width:767px){.visible-xs{display:block !important}table.visible-xs{display:table !important}tr.visible-xs{display:table-row !important}th.visible-xs,td.visible-xs{display:table-cell !important}}@media (max-width:767px){.visible-xs-block{display:block !important}}@media (max-width:767px){.visible-xs-inline{display:inline !important}}@media (max-width:767px){.visible-xs-inline-block{display:inline-block !important}}@media (min-width:768px) and (max-width:991px){.visible-sm{display:block !important}table.visible-sm{display:table !important}tr.visible-sm{display:table-row !important}th.visible-sm,td.visible-sm{display:table-cell !important}}@media (min-width:768px) and (max-width:991px){.visible-sm-block{display:block !important}}@media (min-width:768px) and (max-width:991px){.visible-sm-inline{display:inline !important}}@media (min-width:768px) and (max-width:991px){.visible-sm-inline-block{display:inline-block !important}}@media (min-width:992px) and (max-width:1259px){.visible-md{display:block !important}table.visible-md{display:table !important}tr.visible-md{display:table-row !important}th.visible-md,td.visible-md{display:table-cell !important}}@media (min-width:992px) and (max-width:1259px){.visible-md-block{display:block !important}}@media (min-width:992px) and (max-width:1259px){.visible-md-inline{display:inline !important}}@media (min-width:992px) and (max-width:1259px){.visible-md-inline-block{display:inline-block !important}}@media (min-width:1260px){.visible-lg{display:block !important}table.visible-lg{display:table !important}tr.visible-lg{display:table-row !important}th.visible-lg,td.visible-lg{display:table-cell !important}}@media (min-width:1260px){.visible-lg-block{display:block !important}}@media (min-width:1260px){.visible-lg-inline{display:inline !important}}@media (min-width:1260px){.visible-lg-inline-block{display:inline-block !important}}@media (max-width:767px){.hidden-xs{display:none !important}}@media (min-width:768px) and (max-width:991px){.hidden-sm{display:none !important}}@media (min-width:992px) and (max-width:1259px){.hidden-md{display:none !important}}@media (min-width:1260px){.hidden-lg{display:none !important}}.visible-print{display:none !important}@media print{.visible-print{display:block !important}table.visible-print{display:table !important}tr.visible-print{display:table-row !important}th.visible-print,td.visible-print{display:table-cell !important}}.visible-print-block{display:none !important}@media print{.visible-print-block{display:block !important}}.visible-print-inline{display:none !important}@media print{.visible-print-inline{display:inline !important}}.visible-print-inline-block{display:none !important}@media print{.visible-print-inline-block{display:inline-block !important}}@media print{.hidden-print{display:none !important}}
+
+.col-ms-1,.col-ms-2,.col-ms-3,.col-ms-4,.col-ms-5,.col-ms-6,.col-ms-7,.col-ms-8,.col-ms-9,.col-ms-10,.col-ms-11,.col-ms-12 {position: relative;min-height: 1px;padding-left: 15px;padding-right: 15px;}
+.visible-ms {display: none;}
+
+@media (min-width: 480px) and (max-width: 767px) {
+    .col-ms-1,.col-ms-2,.col-ms-3,.col-ms-4,.col-ms-5,.col-ms-6,.col-ms-7,.col-ms-8,.col-ms-9,.col-ms-10,.col-ms-11 {float: left;}
+    .col-ms-1 {width: 8.33333%; }
+    .col-ms-2 {width: 16.66667%; }
+    .col-ms-3 {width: 25%; }
+    .col-ms-4 {width: 33.33333%; }
+    .col-ms-5 {width: 41.66667%; }
+    .col-ms-6 {width: 50%; }
+    .col-ms-7 {width: 58.33333%; }
+    .col-ms-8 {width: 66.66667%; }
+    .col-ms-9 {width: 75%; }
+    .col-ms-10 {width: 83.33333%; }
+    .col-ms-11 {width: 91.66667%; }
+    .col-ms-12 {width: 100%; }
+    .col-ms-push-1 {left: 8.33333%; }
+    .col-ms-push-2 {left: 16.66667%; }
+    .col-ms-push-3 {left: 25%; }
+    .col-ms-push-4 {left: 33.33333%; }
+    .col-ms-push-5 {left: 41.66667%; }
+    .col-ms-push-6 {left: 50%; }
+    .col-ms-push-7 {left: 58.33333%; }
+    .col-ms-push-8 {left: 66.66667%; }
+    .col-ms-push-9 {left: 75%; }
+    .col-ms-push-10 {left: 83.33333%; }
+    .col-ms-push-11 {left: 91.66667%; }
+    .col-ms-pull-1 {right: 8.33333%; }
+    .col-ms-pull-2 {right: 16.66667%; }
+    .col-ms-pull-3 {right: 25%; }
+    .col-ms-pull-4 {right: 33.33333%; }
+    .col-ms-pull-5 {right: 41.66667%; }
+    .col-ms-pull-6 {right: 50%; }
+    .col-ms-pull-7 {right: 58.33333%; }
+    .col-ms-pull-8 {right: 66.66667%; }
+    .col-ms-pull-9 {right: 75%; }
+    .col-ms-pull-10 {right: 83.33333%; }
+    .col-ms-pull-11 {right: 91.66667%; }
+    .col-ms-offset-1 {margin-left: 8.33333%; }
+    .col-ms-offset-2 {margin-left: 16.66667%; }
+    .col-ms-offset-3 {margin-left: 25%; }
+    .col-ms-offset-4 {margin-left: 33.33333%; }
+    .col-ms-offset-5 {margin-left: 41.66667%; }
+    .col-ms-offset-6 {margin-left: 50%; }
+    .col-ms-offset-7 {margin-left: 58.33333%; }
+    .col-ms-offset-8 {margin-left: 66.66667%; }
+    .col-ms-offset-9 {margin-left: 75%; }
+    .col-ms-offset-10 {margin-left: 83.33333%; }
+    .col-ms-offset-11 {margin-left: 91.66667%;}
+
+    .hidden-ms {display:none !important}
+    .visible-ms {display: block;}
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+    .container {max-width: 748px; }
+}
+
+.col-xs-15,.col-sm-15,.col-md-15,.col-lg-15 {position: relative;min-height: 1px;padding-right: 15px;padding-left: 15px;}
+.col-xs-15 {width: 20%;float: left;}
+.alpha {padding-left: 0;}
+.omega {padding-right: 0;}
+
+@media (min-width: 768px) {
+    .col-sm-15 {width: 20%;float: left;}
+    .alpha-sm {padding-left: 0;}
+    .omega-sm {padding-right: 0;}
+}
+@media (min-width: 992px) {
+    .col-md-15 {width: 20%;float: left;}
+    .alpha-md {padding-left: 0;}
+    .omega-md {padding-right: 0;}
+}
+@media (min-width: 1260px) {
+    .col-lg-15 {width: 20%;float: left;}
+    .col-lg-7th {width: 14.285714285714285714285714285714%;}
+    .col-lg-1-8th,.col-lg-2-8th,.col-lg-3-8th,.col-lg-4-8th,.col-lg-5-8th,.col-lg-6-8th,.col-lg-7-8th,.col-lg-8-8th {position: relative;min-height: 1px;padding-right: 15px;padding-left: 15px;}
+    .col-lg-1-8th {width: 12.5%;}
+    .col-lg-2-8th {width: 25%;}
+    .col-lg-3-8th {width: 37.5%;}
+    .col-lg-4-8th {width: 50%;}
+    .col-lg-5-8th {width: 62.5%;}
+    .col-lg-6-8th {width: 75%;}
+    .col-lg-7-8th {width: 87.5%;}
+    .col-lg-8-8th {width: 100%;}
+    .alpha-lg {padding-left: 0;}
+    .omega-lg {padding-right: 0;}
+}
+
+@font-face {
+    font-family: 'aller';
+    src: url('https://static.rapido.com/media/topup/beltegoed/default/fonts/aller-regular/aller-regular.eot');
+    src: url('https://static.rapido.com/media/topup/beltegoed/default/fonts/aller-regular/aller-regular.eot?#iefix') format('embedded-opentype'),
+    url('https://static.rapido.com/media/topup/beltegoed/default/fonts/aller-regular/aller-regular.woff2') format('woff2'),
+    url('https://static.rapido.com/media/topup/beltegoed/default/fonts/aller-regular/aller-regular.woff') format('woff'),
+    url('https://static.rapido.com/media/topup/beltegoed/default/fonts/aller-regular/aller-regular.ttf') format('truetype'),
+    url('https://static.rapido.com/media/topup/beltegoed/default/fonts/aller-regular/aller-regular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+html,
+body {
+    font-family: 'aller', arial;
+    -webkit-font-smoothing: antialiased;
+    color: #595959; /* #505050*/
+    font-size: 12px;
+    background: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+    font-size: 18px;
+    color: #303030;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+header {
+    margin-bottom: 10px;
+}
+
+#mobile-header {
+    position: relative;
+}
+
+.header-border {
+    border-bottom: 1px solid #c9d0d1;
+    padding-bottom: 20px;
+}
+
+#logo {
+    padding: 10px 0 10px 15px;
+    max-height: 50px;
+}
+
+#navigation {
+    padding-top: 40px;
+}
+
+#navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navigation li {
+    display: inline;
+}
+
+#navigation li:first-child {
+    padding-left: 0px;
+}
+
+#navigation li:last-child {
+    padding-right: 0px;
+}
+
+#navigation a {
+    text-transform: uppercase;
+    color: #595959;
+}
+
+#navigation a:hover {
+    color: #0e76bc;
+    text-decoration: none;
+}
+
+#country-select {
+    text-align: center;
+    margin: 20px 0 10px;
+}
+
+#country-select .country {
+    background: #f5f5f5 url('../../beltegoed/default/images/layout/layout-icons30f4.png?v=3') -30px 0 no-repeat;
+    border: 1px solid #e0e0e0;
+    color: inherit;
+    padding: 4px 8px 4px 35px;
+    margin-left: 5px;
+    transition: border 0.3s ease;
+}
+
+#country-select .active {
+    background-color: #0e76bc;
+    border-color: #0e76bc;
+    color: #fff;
+}
+
+#country-select .disabled {
+    -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    -webkit-opacity: .5;
+    background-color: #ccc;
+    border-color: #aaa;
+    color: #808080;
+    filter: grayscale(100%);
+    opacity: .5;
+}
+
+#country-select .country-nl {
+    background-position: -165px -415px;
+}
+
+#country-select .country-be {
+    background-position: -165px -455px;
+}
+
+#country-select a:hover {
+    text-decoration: none;
+    border-color: #0e76bc;
+}
+
+#header-search {
+    padding-top: 20px;
+}
+
+#header-search input[type=text] {
+    float: left;
+    width: calc(100% - 44px);
+    height: 39px;
+    border: 1px solid #efefef;
+    border-right-color: #fff;
+}
+
+#header-search input[type=text]:focus {
+    border-color: #0e76bc;
+}
+
+#header-search input[type=submit] {
+    float: left;
+    background: #f6f6f6 url('../../beltegoed/default/images/layout/layout-icons30f4.png?v=3') no-repeat -247px -885px;
+    width: 44px;
+    height: 39px;
+    border: 1px solid #efefef;
+    border-left: 0px;
+    padding: 0px;
+    margin: 0px;
+    text-indent: -9999px;
+}
+
+#toggle-navigation {
+    background: #0e76bc url("../../beltegoed/default/images/layout/icon-navigation5e1f.png?v=2") no-repeat scroll 50% 50%;
+    cursor: pointer;
+    display: block;
+    float: right;
+    height: 50px;
+    width: 54px;
+}
+
+#mobile-navigation {
+    display: none;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 50px;
+    background: #fff;
+    z-index: 3;
+}
+
+#mobile-navigation ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#mobile-navigation > ul {
+    box-shadow: 0 5px 10px #ddd;
+}
+
+#mobile-navigation .sub-menu {
+    display: none;
+}
+
+#navigation,
+#categories {
+    display: none;
+}
+
+#categories .title {
+    padding: 0 12px;
+    background: #efefef;
+    text-transform: uppercase;
+    height: 50px;
+    line-height: 50px;
+}
+
+#categories ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#mobile-navigation ul:first-child {
+    border-top: 1px solid #efefef;
+}
+
+#mobile-navigation li,
+#categories .category {
+    background: #fff;
+    transition: background 0.3s ease;
+}
+
+#mobile-navigation li a,
+#categories .item {
+    position: relative;
+    display: block;
+    background: url('../../beltegoed/default/images/layout/layout-icons30f4.png?v=3') -300px 0 no-repeat;
+    height: 41px;
+    line-height: 41px;
+    padding: 0 40px 0 0;
+    text-transform: uppercase;
+    color: #595959;
+    border: 1px solid #efefef;
+    border-top-width: 0px;
+}
+
+#mobile-navigation li a {
+    padding-left: 20px;
+}
+
+#mobile-navigation .sub-menu li a {
+    padding-left: 40px;
+}
+
+#categories .category:hover,
+#mobile-navigation li:hover {
+    background-color: #f6f6f6;
+}
+
+#categories .category:hover .item {
+    color: #0e76bc;
+    text-decoration: none;
+}
+
+#mobile-navigation li.category a.item:after,
+#categories .item:after {
+    content: "";
+    display: block;
+    height: 41px;
+    width: 20px;
+    background: url('../../beltegoed/default/images/layout/menu-arrow.png') no-repeat 0 50%;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+#categories .item:before {
+    content: "";
+    display: block;
+    width: 30px;
+    margin: 0 10px 0 20px;
+    height: 41px;
+    float: left;
+    background: url('../../beltegoed/default/images/layout/layout-icons30f4.png?v=3') no-repeat;
+}
+
+#mobile-navigation li.category.active a.item:after {
+    background: url('../../beltegoed/default/images/layout/menu-arrow-down.png') no-repeat 0 50%;
+}
+
+#categories .item.callcredit:before {
+    background-position: -206px -251px;
+}
+
+#categories .item.creditcards:before {
+    background-position: -206px -291px;
+}
+
+#categories .item.entertainment:before {
+    background-position: -206px -334px;
+}
+
+#categories .item.gamecards:before {
+    background-position: -206px -375px;
+}
+
+#categories .item.giftcards:before {
+    background-position: -92px -653px;
+}
+
+#categories .sub-menu {
+    border: 1px solid #efefef;
+    padding: 10px;
+    background: #fff;
+    display: none;
+    z-index: 4;
+}
+
+#categories .sub-menu a {
+    font-size: 13px;
+    display: block;
+    background: url('../../beltegoed/default/images/layout/sub-menu-arrow.png') no-repeat -4px 0;
+    padding-left: 10px;
+    color: #595959;
+    white-space: nowrap;
+}
+
+#categories .sub-menu a:hover {
+    color: #0e76bc;
+}
+
+#promotions {
+    min-height: 213px;
+    max-height: 385px;
+    overflow: hidden;
+}
+
+.header-image-cropped {
+    height: 213px;
+    overflow: hidden;
+}
+
+.header-image-cropped img {
+    max-width: none;
+    position: relative;
+    left: 20%;
+    transform: translateX(-20%);
+    -webkit-transform: translateX(-20%);
+    -moz-transform:  translateX(-20%);
+}
+
+html.ie8 .header-image-cropped img,
+html.ie9 .header-image-cropped img {
+    left: 0%;
+}
+
+ul.bxslider,
+ul.bxslider li,
+.bxslider-mobile,
+.bxslider-mobile li {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+#usps {
+    padding: 20px 0;
+}
+
+#usps .usp {
+    display: block;
+    background: url('../../beltegoed/default/images/layout/layout-icons30f4.png?v=3') no-repeat -131px -477px;
+    padding: 15px 0 15px 35px;
+    font-size: 12px;
+}
+
+.trustpilot {
+    text-align: left;
+    padding-left: 80px;
+    background: url('../../beltegoed/default/images/layout/layout-icons30f4.png?v=3') no-repeat 0 -998px;
+    min-height: 57px;
+}
+
+.trustpilot a {
+    color: #404042;
+}
+
+.trustpilot a:hover {
+    text-decoration: none;
+}
+
+.trustpilot .text,
+.trustpilot .footer {
+    display: none;
+}
+
+.trustpilot .score {
+    display: block;
+    font-size: 13px;
+}
+
+.trustpilot .stars {
+    display: block;
+}
+
+.trustpilot span.fullStar,
+.trustpilot span.emptyStar {
+    float: left;
+    width: 14px;
+    height: 14px;
+}
+
+.trustpilot span.fullStar {
+    background: url('../../beltegoed/default/images/layout/layout-icons30f4.png?v=3') 303px -965px;
+}
+
+.trustpilot span.emptyStar {
+    background: url('../../beltegoed/default/images/layout/layout-icons30f4.png?v=3') 289px -965px;
+}
+
+.trustpilot .rating {
+    font-size: 14px;
+}
+
+.trustpilot .reviews {
+    font-size: 10px;
+}
+
+.trustpilot-offers {
+    display: none;
+}
+
+footer {
+    border-top: 4px solid #e6e6e6;
+    margin-top: 50px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+#footer-paymethods {
+    text-align: center;
+    padding: 10px 0;
+}
+
+#footer-paymethods span {
+    display: block;
+    margin-right: 10px;
+}
+
+#footer-newsletter dl {
+    margin-top: 0;
+}
+
+#footer-newsletter label {
+    text-transform: uppercase;
+}
+
+#footer-newsletter input {
+    margin-top: -5px;
+    height: 28px;
+    border-radius: 5px;
+}
+
+#footer-newsletter button {
+    position: absolute;
+    right: 18px;
+    top: -1px;
+    width: 24px;
+    height: 22px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-radius: 5px;
+    font-size: 12px;
+    background: #d5d5d5;
+    color: #fff;
+}
+
+#footer-newsletter button:hover {
+    background: #bbb;
+}
+
+#footer-twitter,
+#footer-news,
+#footer-info {
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+footer .header {
+    font-size: 18px;
+    text-transform: uppercase;
+    background: url('../../beltegoed/default/images/layout/layout-icons30f4.png?v=3') no-repeat -40px 0;
+    padding: 5px 0 5px 40px;
+    color: #595959;
+}
+
+footer .header:hover {
+    color: #595959;
+}
+
+footer .header.twitter {
+    background-position: -88px -525px;
+}
+
+footer .header.news {
+    background-position: -88px -563px;
+}
+
+#footer-twitter .tweets,
+#footer-news .news {
+    margin-top: 10px;
+}
+
+#footer-twitter .tweet,
+#footer-news .news-item {
+    border-bottom: 1px solid #e6e6e6;
+    padding: 5px 0;
+}
+
+#footer-news .title {
+    display: block;
+    font-size: 1.1em;
+    padding-bottom: 3px;
+}
+
+#footer-twitter .date,
+#footer-news .date {
+    display: block;
+    padding-top: 5px;
+}
+
+#footer-news .date {
+    color: #bfbfbf;
+}
+
+#footer-news .date:before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: url('../../beltegoed/default/images/layout/layout-icons30f4.png?v=3') 0 -981px;
+}
+
+#footer-twitter .tweet:last-child,
+#footer-news .news-item:last-child {
+    border-bottom: 0px;
+}
+
+footer {
+    text-align: center;
+}
+
+#footer-info {
+    display: inline-block;
+}
+
+footer .trustpilot {
+    margin-top: 20px;
+}
+
+#social-media .icon {
+    display: block;
+    float: left;
+    width: 37px;
+    height: 35px;
+    text-decoration: none;
+    font-size: 0;
+    margin-right: 7px;
+    background: url('../../beltegoed/default/images/layout/layout-icons30f4.png?v=3') no-repeat -41px -601px;
+}
+
+#social-media .icon.facebook {
+    background-position: -41px -601px;
+}
+
+#social-media .icon.facebook:hover {
+    background-position: -41px -636px;
+}
+
+#social-media .icon.twitter {
+    background-position: -41px -671px;
+}
+
+#social-media .icon.twitter:hover {
+    background-position: -41px -706px;
+}
+
+#social-media .icon.google {
+    background-position: -41px -741px;
+}
+
+#social-media .icon.google:hover {
+    background-position: -41px -776px;
+}
+
+#social-media .icon.pinterest {
+    background-position: -41px -811px;
+}
+
+#social-media .icon.pinterest:hover {
+    background-position: -41px -846px;
+}
+
+#social-media .icon.youtube {
+    background-position: -41px -881px;
+}
+
+#social-media .icon.youtube:hover {
+    background-position: -41px -916px;
+}
+
+#footer-links {
+    border-top: 4px solid #e6e6e6;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+#footer-links .title {
+    display: block;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+#footer-links a {
+    display: block;
+    font-size: 12px;
+    color: #595959;
+}
+
+#footer-links a:before {
+    content: "";
+    display: inline-block;
+    width: 11px;
+    height: 10px;
+    background: url('../../beltegoed/default/images/layout/layout-icons30f4.png?v=3') no-repeat -20px -961px;
+    margin-right: 3px;
+}
+
+#footer-copyright,
+#footer-hosting {
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+#footer-hosting {
+    text-align: right;
+}
+
+.breadcrumbs {
+    display: none;
+}
+
+
+
+.category-header {
+    display: block;
+    /*border-bottom: 2px solid #c4c4c4;*/
+    background: #a0a0a0;
+    font-size: 14px;
+    font-weight: 400;
+    color: #595959;
+    text-align: center;
+    margin: 10px 0 20px;
+    padding: 3px 0;
+}
+
+.category-header * {
+    display: inline-block;
+    padding: 6px 0;
+    /*color: #595959;*/
+    color: #fff;
+    background: url('../../beltegoed/default/images/layout/layout-icons30f4.png?v=3') no-repeat -300px 0;
+}
+
+.category-header.callcredit *,
+.category-header.creditcard *,
+.category-header.entertainment *,
+.category-header.gamecards *,
+.category-header.giftcards *,
+.category-header.recharge *,
+.category-header.bundles *,
+.category-header.most-popular *{
+    padding-left: 32px;
+}
+
+.category-header a:hover {
+    color: #fff;
+}
+
+.category-header.callcredit * {
+    background-position: -246px 3px;
+}
+
+.category-header.creditcard * {
+    background-position: -246px -48px;
+}
+
+.category-header.entertainment * {
+    background-position: -246px -101px;
+}
+
+.category-header.gamecards * {
+    background-position: -246px -158px;
+}
+
+.category-header.giftcards * {
+    background-position: -92px -607px;
+}
+
+.category-header.recharge * {
+    background-position: -246px -216px;
+}
+
+.category-header.bundles * {
+    background-position: -94px -712px;
+}
+.category-header.most-popular * {
+    background: url('../../beltegoed/default/images/layout/populair-product-icon30f4.png?v=3') no-repeat 0 5px;
+    background-size: 25px;
+
+}
+
+.provider {
+    max-width: 138px;
+    margin: 0 auto 20px;
+    position: relative;
+}
+
+.provider a {
+    text-decoration: none;
+}
+
+.provider img {
+    /*border: 1px solid #efefef;  Box-sizing messes with img dimensions. */
+    outline: solid 1px #e5e5e5;
+    outline-offset: -1px;
+    display: block;
+    min-height: 96px;
+}
+
+.provider .category-icon {
+    border: 0;
+    min-height: 0;
+    outline: 0;
+    position: absolute;
+    right: -25px;
+    top: -15px;
+}
+
+.provider .title {
+    display: block;
+    background: #e5e5e5;
+    color: #595959;
+    /*max-width: 138px;*/
+    max-width: 136px;
+    text-align: center;
+    padding: 5px 0;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.provider:hover .title {
+    background: #0e76bc;
+    color: #fff;
+}
+
+body.touch .provider:hover .title {
+    background: #e5e5e5;
+    color: #595959;
+}
+
+.info-block {
+
+}
+
+.info-block h1,
+.info-block h2,
+.info-block h3,
+.info-block h4 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.info-image {
+    display: block;
+    margin: 10px auto;
+}
+
+.info-block .read-more:before {
+    content: "";
+    display: block;
+}
+
+.info-block.warning,
+.info-block.notice,
+.info-block.paysafecard {
+    background: #fcbdbd;
+    border: 1px solid #faa4a4;
+    margin: 0 0 10px;
+    padding: 10px;
+}
+
+.info-block.notice {
+    background: #e3edbb;
+    border: 1px solid #95ba06;
+}
+
+.info-block.warning .title,
+.info-block.notice .title {
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.fold-out-text {
+    position: relative;
+}
+
+.fold-out-text-image {
+}
+
+.fold-out-text-close {
+    cursor: pointer;
+    float: right;
+    z-index: 2;
+}
+
+.fold-out-text.more-text,
+.fold-out-text.show-less {
+    display: none;
+}
+
+.toggle-text .bb-bold {
+    color: #C42B2B;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+.info-block.paysafecard {
+    background-color: #DAEDF4;
+    border: 1px solid #C3D6DE;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.info-block.paysafecard img {
+    display: block;
+    margin: 0 auto;
+}
+
+.info-block.paysafecard .col-xs-3,
+.info-block.paysafecard .col-xs-9 {
+    padding: 0 8px;
+}
+
+
+#main-info-block {
+    display: none;
+}
+
+#more-info-button {
+    margin-top: 15px;
+    display: block;
+    height: 42px;
+    border: 1px solid #cbcbcb;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    text-align: center;
+    line-height: 42px;
+    font-size: 16px;
+    font-weight: 700;
+    background: #fdfdfd; /* Old browsers */
+    background: -moz-linear-gradient(top,  #fdfdfd 0%, #ededed 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fdfdfd), color-stop(100%,#ededed)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #fdfdfd 0%,#ededed 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #fdfdfd 0%,#ededed 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #fdfdfd 0%,#ededed 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #fdfdfd 0%,#ededed 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdfdfd', endColorstr='#ededed',GradientType=0 ); /* IE6-9 */
+    box-shadow: inset 0 -9px 2px -8px #fff, 0 2px 3px -1px #bbb;
+    cursor: pointer;
+}
+
+#more-info-button span {
+    background: url('../../beltegoed/default/images/layout/more-info-arrow-right.png') no-repeat 50% 50%;
+    height: 42px;
+    width: 41px;
+    border-left: 1px solid #d4d4d4;
+    display: block;
+    float: right;
+}
+
+#more-info-button.foldout span {
+    background: url('../../beltegoed/default/images/layout/more-info-arrow-bottom.png') no-repeat 50% 50%;
+}
+
+
+
+span.bb-bold {font-weight: bold;}
+span.bb-italic {font-style: italic;}
+span.bb-underline {text-decoration: underline;}
+span.bb-linethrough {text-decoration: line-through;}
+.bb-accordion {
+    border-bottom: 1px solid #cdcdcd;
+    margin: 20px 0;
+    padding-bottom: 20px;
+    transform: translateZ(0px);
+}
+
+.bb-accordion-title {
+    cursor: pointer;
+    margin-bottom: 0;
+    padding-left: 35px;
+    position: relative;
+}
+
+.bb-accordion-title::before {
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAABgBAMAAAD1KK9nAAAALVBMVEU1dLiQjY3////l5OSCiriysLDs6+v5+PjQz89shLmqp6fJx8dCfbu/l7eZlpb2+XAbAAAAYUlEQVQ4y2MQRAK04AQZksoRNk4qNm6EcoSUgMAQyhEN3ZQaupBUo58uRHHb8OUAwyoQhTOI3Abn0Bo4GZDKYQaltwYohwmU3mByLC6XUlwmkGr0kQkMIwMAw8oBlTP4AACL5Dk5WH8dKwAAAABJRU5ErkJggg==');
+    content: "";
+    display: block;
+    height: 24px;
+    left: 0;
+    position: absolute;
+    width: 24px;
+}
+
+.bb-accordion-title.expanded::before {
+    background-position: 0 -24px;
+}
+
+.bb-accordion-title:hover::before {
+    background-position: 0 -48px;
+}
+
+.bb-accordion-title:hover.expanded::before {
+    background-position: 0 -72px;
+}
+
+.bb-accordion-answer {
+    display: none;
+    padding-left: 35px;
+}
+
+.tooltip {
+
+}
+
+.tooltip-text {
+    position: absolute;
+    max-width: 400px;
+    padding: 2px;
+    background: #fff;
+    border: 1px solid #cccccc;
+    z-index: 2;
+}
+
+ul.errors {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+ul.errors li {
+    color: #d70000;
+}
+
+.primary-button,
+.secondary-button,
+.info-button,
+.order-button {
+    display: block;
+    width: 100%;
+    border: 0;
+    background: #56b64a;
+    color: #fff;
+    padding: 5px;
+    transition: background 0.3s ease;
+    text-align: center;
+    outline: none;
+}
+
+.secondary-button {
+    background: #d4d4d4;
+}
+
+.primary-button:hover,
+.info-button:hover,
+.order-button:hover {
+    background: #5bc14e;
+    text-decoration: none;
+}
+
+.primary-button.disabled,
+.primary-button:disabled {
+    background: #c4c4c4;
+}
+
+a.primary-button,
+a.secondary-button,
+a.info-button,
+a.order-button {
+    text-decoration: none;
+    color: #fff;
+}
+
+.primary-button.inline,
+.secondary-button.inline,
+.info-button,
+.order-button.inline {
+    width: auto;
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.info-button {
+    margin: 10px 0;
+}
+
+
+/* Default form styles */
+
+
+fieldset,
+dt,
+dd {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+fieldset dd.valid {
+    position: relative;
+    margin-right: 25px;
+}
+
+fieldset dd.valid:before {
+    content: "";
+    display:block;
+    background: url('../../beltegoed/shop/images/order/input-check-icon.png') no-repeat 0 50%;
+    width: 20px;
+    height: 100%;
+    position: absolute;
+    right: -25px;
+    top: 0px;
+}
+
+input[type=text],
+input[type=tel],
+input[type=email],
+input[type=password],
+textarea {
+    width: 100%;
+    box-shadow: none;
+    padding: 5px;
+    border: 1px solid #d4d4d4;
+    transition: border 0.5s ease;
+    font-size: 16px;
+    -webkit-appearance: none;
+    border-radius: 0;
+    outline: none;
+}
+
+select {
+    font-size: 16px;
+}
+
+textarea {
+    height: 150px;
+    resize: none;
+}
+
+button[disabled],
+html input[disabled] {
+    cursor: not-allowed;
+}
+
+/*input[type=text]:focus,
+input[type=tel]:focus,
+input[type=email]:focus,
+input[type=password]:focus,
+textarea:focus {
+    border-color: #0e76bc;
+}
+
+input[type=text].error,
+input[type=tel].error,
+input[type=email].error,
+input[type=password].error,
+textarea.error {
+    border-color: #d70000;
+}
+
+input[type=text].valid,
+input[type=tel].valid,
+input[type=email].valid,
+input[type=password].valid,
+textarea.valid {
+    border-color: #56b64a;
+}*/
+
+label.error {
+    color: #d70000;
+}
+
+input[type="checkbox"] {
+    display:none;
+}
+
+input[type="checkbox"] + label span {
+    display:inline-block;
+    width: 17px;
+    height: 17px;
+    background: url('../../beltegoed/shop/images/order/input-checkbox.png') no-repeat;
+    cursor: pointer;
+    margin-right: 10px;
+    vertical-align: top;
+}
+
+input[type="checkbox"]:checked + label span {
+    background-position: 0 100%;
+}
+
+html.ie8 input[type="checkbox"] {
+    display: inline;
+}
+
+html.ie8 input[type="checkbox"] + label span {
+    display: none;
+}
+
+body .select2-container--default .select2-selection--single {
+    border-radius: 0;
+    border-color: #ddd;
+    height: 31px;
+}
+
+body .select2-container--default.error .select2-selection--single {
+    border-color: #d70000;
+}
+
+body .select2-container--default .select2-results__option[aria-selected="true"] {
+    background: none;
+}
+
+body .select2-container--default .select2-results__option--highlighted[aria-selected] {
+    background-color: #0e76bc;
+}
+
+body .select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 31px;
+}
+
+body .select2-container--default .select2-selection--single .select2-selection__arrow {
+    background: url('../../beltegoed/shop/images/product/select-arrow.png');
+    width: 26px;
+    height: 29px;
+}
+
+body .select2-container--default .select2-selection--single .select2-selection__arrow b {
+    display: none;
+}
+
+.value-add {
+    display: block;
+    color: #e2810e;
+    font-size: 14px;
+    padding: 3px 0;
+}
+
+#itunes-popup {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    top: 0;
+    left: 0;
+}
+
+#itunes-popup .overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0, 0.6);
+}
+
+#itunes-popup .popup {
+    position: absolute;
+    margin: -260px 5%;
+    width: 90%;
+    min-height: 450px;
+    top: 50%;
+    left: 0%;
+    z-index: 999;
+    background:#fff;
+    padding: 25px;
+}
+
+#itunes-popup button.close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    border: 0px;
+    text-indent: -9999px;
+    background: url('../../shop/images/popup-close.jpg') no-repeat;
+    width: 16px;
+    height: 22px;
+}
+
+#itunes-popup img {
+    display: block;
+    margin: 0 auto;
+}
+
+#itunes-popup .conditions {
+    padding-top: 10px;
+}
+
+#itunes-popup .conditions-text {
+    font-size: 11px;
+    height: 170px;
+    overflow: auto;
+}
+
+#itunes-popup .name {
+    display: block;
+    text-align: center;
+}
+
+#itunes-popup .price {
+    display: block;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#itunes-popup .price .original:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 50%;
+    right: 0;
+    border-top: 1px solid #404040;
+
+    -webkit-transform:rotate(-8deg);
+    -moz-transform:rotate(-8deg);
+    -ms-transform:rotate(-8deg);
+    -o-transform:rotate(-8deg);
+    transform:rotate(-8deg);
+}
+
+#itunes-popup .price .original {
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+    margin-right: 5px;
+}
+
+#itunes-popup .product {
+    max-width: 136px;
+    min-height: 0;
+    margin: 20px auto 0;
+}
+
+#itunes-popup .order-button {
+    margin-top: 5px;
+}
+
+#itunes-popup .productForm {
+    margin-top: 35px;
+}
+
+#itunes-popup .select2-container--default .select2-selection--single {
+    border-color: #ddd;
+    border-radius: 5px;
+}
+
+#itunes-popup .select2-container--default .select2-selection--single .select2-selection__arrow {
+    background: url('../../shop/images/dropdown-arrow.png') no-repeat 50% 50% / 11px 11px, linear-gradient(to bottom,  #fefefe 0%,#e7e7e7 100%);
+    border-radius: 0px 4px 4px 0px;
+    height: 29px;
+    width: 26px;
+}
+
+#itunes-popup .select2-container .select2-selection--single .select2-selection__rendered {
+    padding-right: 40px;
+}
+
+
+/* Responsive Font Sizes test */
+
+@media (min-width: 768px) {
+
+    input[type=text],
+    input[type=tel],
+    input[type=email],
+    input[type=password],
+    textarea,
+    select {
+        font-size: inherit;
+    }
+
+    header {
+        margin-top: 40px;
+    }
+
+    #logo {
+        max-height: none;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    #country-select {
+        position: absolute;
+        right: 15px;
+        top: 0px;
+        text-align: right;
+        margin-top: -30px;
+    }
+
+    #header-search {
+        padding-top: 10px;
+    }
+
+    #navigation {
+        padding-top: 20px;
+        text-align: right;
+    }
+
+    #navigation li {
+        padding: 0 10px;
+    }
+
+    #toggle-navigation,
+    #mobile-navigation {
+        display: none;
+    }
+
+    #navigation,
+    #categories {
+        display: block;
+    }
+
+    #categories {
+        margin-left: 7%;
+        position: absolute;
+        z-index: 2;
+    }
+
+    #categories .sub-menu {
+        position: absolute;
+        left: 100%;
+        margin: -42px 0 0 -1px;
+    }
+
+    #categories .sub-menu .column {
+        min-width: 130px;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    #categories .sub-menu.columns {
+        white-space: nowrap;
+    }
+
+    footer {
+        text-align: left;
+    }
+
+    #footer-info {
+        display: block;
+    }
+
+    #footer-paymethods {
+        text-align: left;
+    }
+
+    #footer-paymethods span {
+        display: inline;
+    }
+
+    .breadcrumbs {
+        display: block;
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+
+    .breadcrumbs .label {
+        background: url('../../beltegoed/default/images/layout/layout-icons30f4.png?v=3') no-repeat -250px -929px;
+        padding: 5px 0 0 30px;
+    }
+
+    .breadcrumbs a {
+        color: #595959;
+    }
+
+    .breadcrumbs .arrow:before {
+        content: " > ";
+        font-weight: 400;
+    }
+
+    .breadcrumbs span.arrow {
+        font-weight: 700;
+    }
+
+    .info-image {
+        float: right;
+        margin: 10px;
+    }
+
+    #main-info-block {
+        display: block;
+    }
+
+    #more-info-button {
+        display: none;
+    }
+
+    .provider img {
+        min-height: 100px;
+    }
+
+    #itunes-popup .popup {
+        margin-left: -225px;
+        width: 540px;
+        left: 50%;
+        position: fixed;
+    }
+
+    #itunes-popup .product {
+        margin: 0;
+        margin-top: 40px;
+    }
+
+    #itunes-popup .price,
+    #itunes-popup .name {
+        text-align: left;
+    }
+
+}
+
+@media (min-width: 992px) {
+
+    #country-select {
+        margin-top: -20px;
+    }
+
+
+    #header-search {
+        padding-top: 20px;
+    }
+
+    #navigation {
+        padding-top: 30px;
+    }
+
+    #navigation li {
+        padding: 0 20px;
+    }
+
+    #usps .usp {
+        font-size: 13px;
+    }
+
+    .trustpilot .score {
+        font-size: 14px;
+    }
+
+    .trustpilot .reviews {
+        font-size: 12px;
+    }
+
+    .provider img {
+        min-height: 97px;
+    }
+
+}
+
+@media (min-width: 1260px) {
+
+    body {
+        font-size: 14px;
+    }
+
+    .trustpilot .score {
+        display: inline;
+        font-size: 18px;
+    }
+
+    .trustpilot .rating {
+        padding-left: 10px;
+    }
+
+
+    #header-search {
+        padding-top: 30px;
+    }
+
+    #country-select {
+        margin-top: -10px;
+    }
+
+    #navigation {
+        padding-top: 40px;
+    }
+
+    .provider img {
+        min-height: 100px;
+    }
+
+    .provider .title.small {
+        font-size: .9em;
+    }
+
+}
